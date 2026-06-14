@@ -17,7 +17,7 @@ Python fundamentals to GenAI applications.
 Python | NumPy | Matplotlib | Scikit-learn | Jupyter
 
 ## 🚀 Live Project
-👉 [HR Attrition Analyst — Live AI Agent](your streamlit link here)
+👉 [HR Attrition Analyst — Live AI Agent](https://hr-attrition-ai-analyst.streamlit.app/)
 
 ## 📈 Learning Roadmap
 - ✅ Python Fundamentals
