@@ -27,5 +27,5 @@ Python | NumPy | Matplotlib | Scikit-learn | Jupyter
 - 🔄 GenAI & LLMs (Coming soon)
 
 ## 📬 Connect
-- LinkedIn: linkedin.com/in/geetha-reddy-samreddy-1633b4228
-- GitHub: github.com/geethareddysamreddy
+- [LinkedIn](https://linkedin.com/in/geetha-reddy-samreddy-1633b4228)
+- [GitHub](https://github.com/geethareddysamreddy)
