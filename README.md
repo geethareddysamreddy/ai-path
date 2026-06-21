@@ -11,7 +11,23 @@ Hi, I'm **Geetha Samreddy** — a Data Analyst, Power BI Developer, and aspiring
 
 This repository documents my structured, self-directed journey through Python, Data Structures & Algorithms, Machine Learning, Deep Learning, and Generative AI. It serves as both a learning log and a portfolio of hands-on projects and practical implementations.
 
+🗓️ Actively building since February 2026 — career transition documented in real time through this repo.
+
+**🎓 Certifications & Verified Skill Badges:**
+
+[![Claude Code 101](https://img.shields.io/badge/Anthropic-Claude%20Code%20101-D97757?style=flat)](https://verify.skilljar.com/c/obix8gosk55f)
+[![Fairness](https://img.shields.io/badge/Google-Fairness-4285F4?style=flat&logo=google&logoColor=white)](https://developers.google.com/profile/badges/playlists/machine-learning-crash-course/fairness)
+[![Production ML Systems](https://img.shields.io/badge/Google-Production%20ML%20Systems-4285F4?style=flat&logo=google&logoColor=white)](https://developers.google.com/profile/badges/playlists/machine-learning-crash-course/production-ml-systems)
+[![LLMs](https://img.shields.io/badge/Google-LLMs-4285F4?style=flat&logo=google&logoColor=white)](https://developers.google.com/profile/badges/playlists/machine-learning-crash-course/llms)
+[![Embeddings](https://img.shields.io/badge/Google-Embeddings-4285F4?style=flat&logo=google&logoColor=white)](https://developers.google.com/profile/badges/playlists/machine-learning-crash-course/embeddings)
+[![Neural Networks](https://img.shields.io/badge/Google-Neural%20Networks-4285F4?style=flat&logo=google&logoColor=white)](https://developers.google.com/profile/badges/playlists/machine-learning-crash-course/neural-networks)
+[![Overfitting](https://img.shields.io/badge/Google-Overfitting-4285F4?style=flat&logo=google&logoColor=white)](https://developers.google.com/profile/badges/playlists/machine-learning-crash-course/overfitting)
+[![Categorical Data](https://img.shields.io/badge/Google-Categorical%20Data-4285F4?style=flat&logo=google&logoColor=white)](https://developers.google.com/profile/badges/playlists/machine-learning-crash-course/categorical-data)
+[![Numerical Data](https://img.shields.io/badge/Google-Numerical%20Data-4285F4?style=flat&logo=google&logoColor=white)](https://developers.google.com/profile/badges/playlists/machine-learning-crash-course/numerical-data)
+[![Classification](https://img.shields.io/badge/Google-Classification-4285F4?style=flat&logo=google&logoColor=white)](https://developers.google.com/profile/badges/playlists/machine-learning-crash-course/classification)
+
 📍 **Connect with me:**
+
 - 🐙 GitHub: [geethareddysamreddy](https://github.com/geethareddysamreddy)
 - 💼 LinkedIn: [Geetha Reddy Samreddy](https://www.linkedin.com/in/geetha-reddy-samreddy-1633b4228/)
 - 🚀 Live Project: [hr-attrition-ai-analyst.streamlit.app](https://hr-attrition-ai-analyst.streamlit.app/)
@@ -22,7 +38,7 @@ This repository documents my structured, self-directed journey through Python, D
 
 ### 🟢 HR Attrition Analyst — AI Application
 
-An AI-powered HR analytics app that surfaces attrition trends and workforce insights from raw employee data. Built end-to-end: data layer, LLM integration (Groq + Llama 3), and deployed on Streamlit.
+An AI-powered HR analytics app that turns raw employee data into plain-English attrition insights. The LLM layer (Groq + Llama 3) generates narrative summaries of attrition patterns and risk factors, on top of a full data pipeline. Built end-to-end and deployed on Streamlit.
 
 **🔗 Live Demo:** [hr-attrition-ai-analyst.streamlit.app](https://hr-attrition-ai-analyst.streamlit.app/)
 
@@ -32,16 +48,16 @@ An AI-powered HR analytics app that surfaces attrition trends and workforce insi
 
 ## 📁 Repository Structure
 
-| Folder | Description |
-|--------|-------------|
-| `Python/` | Fundamentals, OOP, Functions, File Handling, APIs, Exception Handling |
-| `DSA/` | Arrays, Strings, Searching, Sorting, HashMaps, Problem Solving |
-| `ML/Working_Numerical_Data/` | Student Performance project — cleaning, outlier detection, normalization, binning, polynomial features |
-| `ML/Working_Categorical_Data/` | Titanic Survival Prediction — categorical encoding, feature engineering, 4-model comparison |
-| `ML/Salary_Prediction/` | Regression project — feature selection, model training, evaluation |
-| `ML/Spam_Prediction/` | NLP classification — tokenization, TF-IDF vectorization, model evaluation |
-| `PowerBI/` | Interactive dashboards, DAX calculations, KPIs |
-| `GenAI/` | Prompt Engineering, LLM Applications, AI Agents *(coming soon)* |
+| Folder                          | Description                                                                                            |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------|
+| `Python/`                        | Fundamentals, OOP, Functions, File Handling, APIs, Exception Handling                                  |
+| `DSA/`                           | Arrays, Strings, Searching, Sorting, HashMaps, Problem Solving                                         |
+| `ML/Working_Numerical_Data/`     | Student Performance project — cleaning, outlier detection, normalization, binning, polynomial features |
+| `ML/Working_Categorical_Data/`   | Titanic Survival Prediction — categorical encoding, feature engineering, 4-model comparison            |
+| `ML/Salary_Prediction/`          | Regression project — feature selection, model training, evaluation                                     |
+| `ML/Spam_Prediction/`            | NLP classification — tokenization, TF-IDF vectorization, model evaluation                              |
+| `PowerBI/`                       | Interactive dashboards, DAX calculations, KPIs                                                          |
+| `GenAI/`                         | Prompt Engineering, LLM Applications, AI Agents *(coming soon)*                                        |
 
 ---
 
@@ -89,7 +105,7 @@ NLP pipeline classifying messages as spam or ham — tokenization, TF-IDF vector
 
 **Data Visualization:** Matplotlib · Power BI
 
-**Generative AI:** Groq API · Llama 3 · OpenAI APIs · Prompt Engineering · LangChain *(learning)*
+**Generative AI:** Groq API · Llama 3 · Prompt Engineering for narrative insight generation · LangChain *(learning)*
 
 **Deployment:** Streamlit · Git · GitHub
 
@@ -105,25 +121,25 @@ NLP pipeline classifying messages as spam or ham — tokenization, TF-IDF vector
 - Data Structures & Algorithms basics
 - NumPy & Pandas
 - ML foundations — regression, classification, evaluation
+- Ensemble Learning — Decision Trees, Random Forest, Cross-Validation, XGBoost
 - Working with Numerical Data (preprocessing pipeline)
 - Working with Categorical Data (Titanic project)
 - Salary Prediction & Spam Classifier projects
-- Deployed production AI app (HR Attrition Analyst)
+- Deployed production AI app (HR Attrition Analyst) with LLM-generated insights
 - Power BI dashboards
+- Google ML Crash Course — 9 verified skill badges (Fairness, Production ML Systems, LLMs, Embeddings, Neural Networks, Overfitting, Categorical Data, Numerical Data, Classification)
+- Anthropic Claude Code 101 certification
 
 ### 🔄 In Progress
 
-- Advanced Machine Learning
-- Ensemble Learning & XGBoost deep dive
 - Deep Learning fundamentals
-- Google ML Crash Course
 
 ### 🎯 Up Next
 
-- Natural Language Processing & transformers
-- Deep Learning projects
-- Generative AI & LangChain
+- LangChain — chaining LLM calls, retrieval workflows
 - Retrieval-Augmented Generation (RAG)
+- NLP & transformers
+- Deep Learning projects
 - AI Agents & Multi-Agent Systems
 
 ---
