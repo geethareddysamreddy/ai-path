@@ -129,16 +129,17 @@ NLP pipeline classifying messages as spam or ham — tokenization, TF-IDF vector
 - Power BI dashboards
 - Google ML Crash Course — 9 verified skill badges (Fairness, Production ML Systems, LLMs, Embeddings, Neural Networks, Overfitting, Categorical Data, Numerical Data, Classification)
 - Anthropic Claude Code 101 certification
+- Neural Networks, NLP & Transformers — conceptual foundations (Google ML Crash Course)
 
 ### 🔄 In Progress
 
-- Deep Learning fundamentals
+- Deep Learning fundamentals — hands-on implementation
+- Neural Networks & Transformers — applying concepts to real projects
 
 ### 🎯 Up Next
 
 - LangChain — chaining LLM calls, retrieval workflows
 - Retrieval-Augmented Generation (RAG)
-- NLP & transformers
 - Deep Learning projects
 - AI Agents & Multi-Agent Systems
 
