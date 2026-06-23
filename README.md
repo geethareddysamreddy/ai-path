@@ -48,16 +48,22 @@ An AI-powered HR analytics app that turns raw employee data into plain-English a
 
 ## 📁 Repository Structure
 
-| Folder                          | Description                                                                                            |
-| -------------------------------- | -------------------------------------------------------------------------------------------------------|
-| `Python/`                        | Fundamentals, OOP, Functions, File Handling, APIs, Exception Handling                                  |
-| `DSA/`                           | Arrays, Strings, Searching, Sorting, HashMaps, Problem Solving                                         |
-| `ML/Working_Numerical_Data/`     | Student Performance project — cleaning, outlier detection, normalization, binning, polynomial features |
-| `ML/Working_Categorical_Data/`   | Titanic Survival Prediction — categorical encoding, feature engineering, 4-model comparison            |
-| `ML/Salary_Prediction/`          | Regression project — feature selection, model training, evaluation                                     |
-| `ML/Spam_Prediction/`            | NLP classification — tokenization, TF-IDF vectorization, model evaluation                              |
-| `PowerBI/`                       | Interactive dashboards, DAX calculations, KPIs                                                          |
-| `GenAI/`                         | Prompt Engineering, LLM Applications, AI Agents *(coming soon)*                                        |
+| Folder                            | Description                                                                                            |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| `Python/`                         | Fundamentals, OOP, Functions, File Handling, APIs, Exception Handling                                  |
+| `DSA/`                            | Arrays, Strings, Searching, Sorting, HashMaps, Problem Solving                                         |
+| `ML/Working_Numerical_Data/`      | Student Performance project — cleaning, outlier detection, normalization, binning, polynomial features |
+| `ML/Working_Categorical_Data/`    | Titanic Survival Prediction — categorical encoding, feature engineering, 4-model comparison            |
+| `ML/Salary_Prediction/`           | Regression project — feature selection, model training, evaluation                                     |
+| `ML/Spam_Prediction/`             | NLP classification — tokenization, TF-IDF vectorization, model evaluation                              |
+| `ML/DecisionTree/iris.ipynb`      | Decision Tree, Random Forest, and XGBoost implementations on the Iris dataset                          |
+| `ML/House_Prediction/house.ipynb` | House price prediction using Scikit-learn with data preprocessing and visualization                    |
+| `ML/NeuralNetwork_TensorFlow/`    | Deep Learning projects using TensorFlow and Keras                                                      |
+| `├── fashionimage.ipynb`          | Fashion MNIST image classification using ANN/CNN                                                       |
+| `├── note.ipynb`                  | MNIST handwritten digit recognition using TensorFlow                                                   |
+| `└── sentiment_analysis.ipynb`    | IMDB movie review sentiment analysis using NLP and Embedding layers                                    |
+| `PowerBI/`                        | Interactive dashboards, DAX calculations, KPIs                                                         |
+| `GenAI/`                          | Prompt Engineering, LLM Applications, AI Agents *(coming soon)*                                        |
 
 ---
 
@@ -65,7 +71,7 @@ An AI-powered HR analytics app that turns raw employee data into plain-English a
 
 ### 🚢 Titanic Survival Prediction *(Working with Categorical Data)*
 
-Full Kaggle-style ML pipeline with categorical feature engineering — title extraction, rare category handling, family size, fare-per-person — evaluated across four classifiers.
+Full Kaggle-style ML pipeline with categorical feature engineering — title extraction, rare category handling, family size, fare-per-person — evaluated across multiple classifiers.
 
 **Key techniques:** Missing value imputation · One-hot encoding · Feature extraction from names · Cross-validation · Feature importance analysis
 
@@ -81,11 +87,27 @@ End-to-end numerical data project covering EDA, outlier treatment, feature scali
 
 ---
 
-### 💰 Salary Prediction
+### 💰 House Price Prediction
 
-Regression project predicting employee compensation from input features, with feature selection, model training, and evaluation metrics.
+Regression project built using Scikit-learn to predict house prices based on multiple input features.
 
-**Key techniques:** Feature selection · Regression modeling · Model evaluation
+**Key techniques:** Data preprocessing · Feature engineering · Regression modeling · Model evaluation · Data visualization
+
+**Libraries:** Scikit-learn · Pandas · NumPy · Matplotlib
+
+---
+
+### 🌳 Ensemble Learning on Iris Dataset
+
+Implementation and comparison of multiple tree-based machine learning algorithms on the Iris dataset.
+
+**Algorithms implemented:**
+
+* Decision Tree Classifier
+* Random Forest Classifier
+* XGBoost Classifier
+
+**Key techniques:** Model comparison · Feature importance analysis · Ensemble learning · Classification evaluation
 
 ---
 
@@ -97,11 +119,37 @@ NLP pipeline classifying messages as spam or ham — tokenization, TF-IDF vector
 
 ---
 
+### 🧠 Deep Learning with TensorFlow
+
+Collection of deep learning projects implemented using TensorFlow and Keras.
+
+#### ✍️ Handwritten Digit Recognition (MNIST)
+
+Built an Artificial Neural Network (ANN) to classify handwritten digits from the MNIST dataset.
+
+**Key concepts:** ANN · Dense layers · Softmax activation · Image normalization · Classification
+
+#### 👕 Fashion MNIST Classification
+
+Implemented image classification models on the Fashion MNIST dataset using TensorFlow.
+
+**Key concepts:** ANN/CNN · Image preprocessing · Model evaluation
+
+#### 😊 IMDB Sentiment Analysis
+
+Developed a Natural Language Processing model to classify movie reviews as positive or negative.
+
+**Key concepts:** NLP · Tokenization · Sequence Padding · Embedding Layers · Binary Classification
+
+---
+
 ## 🛠️ Tech Stack
 
 **Programming & Analytics:** Python · SQL · Pandas · NumPy
 
-**Machine Learning:** Scikit-learn · XGBoost · Feature Engineering · Model Evaluation · Cross Validation
+**Machine Learning:** Scikit-learn · XGBoost · Decision Trees · Random Forest · Feature Engineering · Model Evaluation · Cross Validation
+
+**Deep Learning:** TensorFlow · Keras · Artificial Neural Networks (ANN) · Convolutional Neural Networks (CNN) · NLP
 
 **Data Visualization:** Matplotlib · Power BI
 
@@ -117,32 +165,37 @@ NLP pipeline classifying messages as spam or ham — tokenization, TF-IDF vector
 
 ### ✅ Completed
 
-- Python Fundamentals, OOP, File Handling, APIs
-- Data Structures & Algorithms basics
-- NumPy & Pandas
-- ML foundations — regression, classification, evaluation
-- Ensemble Learning — Decision Trees, Random Forest, Cross-Validation, XGBoost
-- Working with Numerical Data (preprocessing pipeline)
-- Working with Categorical Data (Titanic project)
-- Salary Prediction & Spam Classifier projects
-- Deployed production AI app (HR Attrition Analyst) with LLM-generated insights
-- Power BI dashboards
-- Google ML Crash Course — 9 verified skill badges (Fairness, Production ML Systems, LLMs, Embeddings, Neural Networks, Overfitting, Categorical Data, Numerical Data, Classification)
-- Anthropic Claude Code 101 certification
-- Neural Networks, NLP & Transformers — conceptual foundations (Google ML Crash Course)
+* Python Fundamentals, OOP, File Handling, APIs
+* Data Structures & Algorithms basics
+* NumPy & Pandas
+* ML foundations — regression, classification, evaluation
+* Ensemble Learning — Decision Trees, Random Forest, Cross-Validation, XGBoost
+* Working with Numerical Data (preprocessing pipeline)
+* Working with Categorical Data (Titanic project)
+* Salary Prediction & Spam Classifier projects
+* House Price Prediction using Scikit-learn
+* Deep Learning fundamentals with TensorFlow & Keras
+* Artificial Neural Networks (ANN)
+* Convolutional Neural Networks (CNN)
+* NLP fundamentals — Tokenization, Embeddings, Sentiment Analysis
+* Deployed production AI app (HR Attrition Analyst) with LLM-generated insights
+* Power BI dashboards
+* Google ML Crash Course — 9 verified skill badges
+* Anthropic Claude Code 101 certification
 
 ### 🔄 In Progress
 
-- Deep Learning fundamentals — hands-on implementation
-- Neural Networks & Transformers — applying concepts to real projects
+* Advanced Deep Learning
+* Transformers and Attention Mechanisms
+* LangChain and RAG systems
 
 ### 🎯 Up Next
 
-- LangChain — chaining LLM calls, retrieval workflows
-- Retrieval-Augmented Generation (RAG)
-- Deep Learning projects
-- AI Agents & Multi-Agent Systems
-
+* Retrieval-Augmented Generation (RAG)
+* AI Agents & Multi-Agent Systems
+* FastAPI for ML model deployment
+* Production ML pipelines
+* Advanced Deep Learning projects
 ---
 
 ## 🏅 Career Goal
